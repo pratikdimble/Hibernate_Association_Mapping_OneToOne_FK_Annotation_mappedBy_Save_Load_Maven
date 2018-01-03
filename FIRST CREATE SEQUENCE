@@ -1,0 +1,14 @@
+
+
+
+SQL> create sequence ticketseq start with 5555 increment by 555;
+
+Sequence created.
+
+SQL> select ticketseq.nextval from dual;
+
+   NEXTVAL
+----------
+      5555
+
+SQL>
